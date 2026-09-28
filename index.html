@@ -9,7 +9,7 @@
 
 <!-- Link preview in Telegram / LinkedIn. Upload assets/photo.jpg next to this file for the picture to show. -->
 <meta property="og:title" content="Ekaterina Kuzmina | Neuroscience and machine learning">
-<meta property="og:description" content="Brain-computer interfaces, adaptive deep brain stimulation, reinforcement learning and neural dynamics.">
+<meta property="og:description" content="Brain-computer interfaces, adaptive deep brain stimulation, large health models and neural dynamics.">
 <meta property="og:image" content="https://nevverver.github.io/assets/photo.jpg">
 <meta property="og:url" content="https://nevverver.github.io/">
 <meta property="og:type" content="profile">
@@ -146,7 +146,14 @@
   .table .thead, .table .tr { display: grid; gap: 18px; padding: 10px 0; border-bottom: 1px solid var(--rule); align-items: baseline; }
   .table .thead { padding: 7px 0; font-size: 12.5px; color: var(--muted); }
   .projects .thead, .projects .tr { grid-template-columns: 1.15fr 120px 2.2fr 150px; }
-  .pubs .tr { grid-template-columns: 150px 1fr 190px; }
+  .pubs .tr { grid-template-columns: 130px 1fr 170px; }
+  .authors { margin-top: 3px; font-size: 13.5px; color: var(--muted); }
+  .authors b { color: var(--ink); font-weight: 600; }
+  .pubs .desc { margin-top: 1px; font-size: 13.5px; font-style: italic; }
+  .head-link { margin-left: auto; font-size: 13.5px; }
+  .note { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+  .award { display: inline-block; margin-top: 6px; padding: 2px 9px; border-radius: 3px; background: var(--accent); color: #fff; font-size: 12.5px; font-weight: 600; text-decoration: none; }
+  .award:hover { background: var(--ink); }
   .talks .tr { grid-template-columns: 130px 210px 1fr; }
   .tr .kind, .tr .when { color: var(--muted); }
   .tr .desc { color: var(--muted); font-size: 14px; }
@@ -218,7 +225,7 @@
       <a href="#focus">Focus</a>
       <a href="#projects">Projects</a>
       <a href="#publications">Publications</a>
-      <a href="#talks">Talks</a>
+      <a href="#talks">Conferences</a>
       <a href="#background">Background</a>
       <a href="#skills">Skills</a>
     </nav>
@@ -235,10 +242,10 @@
   <section class="hero">
     <div class="intro-head">
       <h1>Ekaterina Kuzmina</h1>
-      <p class="role">PhD candidate in neurobiology at Skoltech</p>
+      <p class="role">PhD candidate in neurobiology at Skoltech, Research Scientist at AIRI</p>
     </div>
     <div class="intro-body">
-      <p class="lede">I develop brain-computer interfaces with reinforcement learning, dynamical systems and deep learning. My current work is adaptive deep brain stimulation for Parkinson's disease: I built DBS-Gym, an environment for training stimulation policies with RL (KDD 2025), and presented the work at FENS Forum 2026 in Barcelona. I also study rotational structure in motor cortex activity and built motion correction for MRI (MICCAI 2022).</p>
+      <p class="lede">I develop brain-computer interfaces with reinforcement learning, dynamical systems and deep learning. My PhD work is adaptive deep brain stimulation for Parkinson's disease: I built DBS-Gym, an environment for training stimulation policies with RL (KDD 2025), and presented the work at FENS Forum 2026 in Barcelona. At AIRI I work on large health models in the Biomarker Research group.</p>
       <div class="links">
         <a href="https://scholar.google.com/citations?user=pXx97XgAAAAJ&amp;hl=ru">Google Scholar</a>
         <a href="https://github.com/NevVerVer">GitHub</a>
@@ -250,10 +257,11 @@
     <aside class="spec" aria-label="Summary">
       <h2>At a glance</h2>
       <dl>
-        <div class="r"><dt>Position</dt><dd>PhD candidate, Skoltech</dd></div>
+        <div class="r"><dt>Position</dt><dd>PhD candidate, Skoltech<br>Research Scientist, AIRI</dd></div>
         <div class="r"><dt>Field</dt><dd>Neurobiology, machine learning</dd></div>
-        <div class="r"><dt>Focus</dt><dd>BCI, adaptive DBS, neural dynamics</dd></div>
+        <div class="r"><dt>Focus</dt><dd>BCI, adaptive DBS, large health models</dd></div>
         <div class="r"><dt>Methods</dt><dd>RL, dynamical systems, deep learning</dd></div>
+        <div class="r"><dt>h-index</dt><dd>5 <a class="lnk" href="https://scholar.google.com/citations?user=pXx97XgAAAAJ&amp;hl=ru">Google Scholar</a></dd></div>
       </dl>
     </aside>
 
@@ -266,10 +274,10 @@
 <div class="strip" aria-label="Keywords">
   <div class="track">
     <ul>
-      <li>brain-computer interfaces</li><li>adaptive deep brain stimulation</li><li>Parkinson's disease</li><li>beta bursts</li><li>reinforcement learning</li><li>dynamical systems</li><li>neural population dynamics</li><li>jPCA rotations</li><li>motor cortex</li><li>EEG and ECoG</li><li>MRI motion correction</li><li>medical image processing</li><li>digital signal processing</li><li>neural and omics data</li><li>PyTorch</li><li>TensorFlow</li><li>OpenCV</li>
+      <li>brain-computer interfaces</li><li>adaptive deep brain stimulation</li><li>Parkinson's disease</li><li>beta bursts</li><li>reinforcement learning</li><li>dynamical systems</li><li>neural population dynamics</li><li>jPCA rotations</li><li>motor cortex</li><li>EEG and ECoG</li><li>large health models</li><li>aging biomarkers</li><li>MRI motion correction</li><li>medical image processing</li><li>digital signal processing</li><li>neural and omics data</li><li>PyTorch</li><li>TensorFlow</li><li>OpenCV</li>
     </ul>
     <ul aria-hidden="true">
-      <li>brain-computer interfaces</li><li>adaptive deep brain stimulation</li><li>Parkinson's disease</li><li>beta bursts</li><li>reinforcement learning</li><li>dynamical systems</li><li>neural population dynamics</li><li>jPCA rotations</li><li>motor cortex</li><li>EEG and ECoG</li><li>MRI motion correction</li><li>medical image processing</li><li>digital signal processing</li><li>neural and omics data</li><li>PyTorch</li><li>TensorFlow</li><li>OpenCV</li>
+      <li>brain-computer interfaces</li><li>adaptive deep brain stimulation</li><li>Parkinson's disease</li><li>beta bursts</li><li>reinforcement learning</li><li>dynamical systems</li><li>neural population dynamics</li><li>jPCA rotations</li><li>motor cortex</li><li>EEG and ECoG</li><li>large health models</li><li>aging biomarkers</li><li>MRI motion correction</li><li>medical image processing</li><li>digital signal processing</li><li>neural and omics data</li><li>PyTorch</li><li>TensorFlow</li><li>OpenCV</li>
     </ul>
   </div>
 </div>
@@ -278,24 +286,25 @@
   <!-- Career signal: each step is a new stage. x = 30 + (year - 2016) * 90 -->
   <figure class="signal">
     <div class="scroll">
-      <svg viewBox="0 0 1000 150" role="img" aria-label="Career: BSc at NSTU from 2016, MSc at Skoltech from 2020, researcher at Skoltech CIG from 2021, PhD at Skoltech from 2022.">
-        <path class="area" d="M90 124 V100 H450 V76 H540 V52 H645 V28 H990 V124 Z" fill="var(--tint)"/>
-        <line x1="30" y1="124" x2="990" y2="124" stroke="var(--rule)" stroke-width="1.5"/>
+      <svg viewBox="0 0 1000 150" role="img" aria-label="Career: BSc at NSTU from 2016, MSc at Skoltech from 2020, researcher at Skoltech CIG from 2021, PhD at Skoltech from 2022, Research Scientist at AIRI from 2024.">
+        <path class="area" d="M90 127 V106 H450 V84 H540 V62 H645 V40 H750 V18 H990 V127 Z" fill="var(--tint)"/>
+        <line x1="30" y1="127" x2="990" y2="127" stroke="var(--rule)" stroke-width="1.5"/>
         <g font-family="Fragment Mono, ui-monospace, monospace" font-size="11.5" fill="var(--muted)" text-anchor="middle">
-          <text x="30" y="143">2016</text><text x="120" y="143">2017</text><text x="210" y="143">2018</text><text x="300" y="143">2019</text>
-          <text x="390" y="143">2020</text><text x="480" y="143">2021</text><text x="570" y="143">2022</text><text x="660" y="143">2023</text>
-          <text x="750" y="143">2024</text><text x="840" y="143">2025</text><text x="930" y="143">2026</text>
+          <text x="30" y="145">2016</text><text x="120" y="145">2017</text><text x="210" y="145">2018</text><text x="300" y="145">2019</text>
+          <text x="390" y="145">2020</text><text x="480" y="145">2021</text><text x="570" y="145">2022</text><text x="660" y="145">2023</text>
+          <text x="750" y="145">2024</text><text x="840" y="145">2025</text><text x="930" y="145">2026</text>
         </g>
-        <path class="trace" pathLength="1" d="M90 100 H450 V76 H540 V52 H645 V28 H990" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
+        <path class="trace" pathLength="1" d="M90 106 H450 V84 H540 V62 H645 V40 H750 V18 H990" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
         <g class="marks" fill="#fff" stroke="var(--accent)" stroke-width="2.5">
-          <circle cx="90" cy="100" r="4.5"/><circle cx="450" cy="76" r="4.5"/><circle cx="540" cy="52" r="4.5"/><circle cx="645" cy="28" r="4.5"/>
-          <circle cx="990" cy="28" r="4.5" fill="var(--accent)"/>
+          <circle cx="90" cy="106" r="4.5"/><circle cx="450" cy="84" r="4.5"/><circle cx="540" cy="62" r="4.5"/><circle cx="645" cy="40" r="4.5"/><circle cx="750" cy="18" r="4.5"/>
+          <circle cx="990" cy="18" r="4.5" fill="var(--accent)"/>
         </g>
         <g class="labels" font-family="Instrument Sans, Arial, sans-serif" font-size="12.5" fill="var(--ink)">
-          <text x="100" y="117">BSc, Novosibirsk State Technical University</text>
-          <text x="460" y="93">MSc, Skoltech</text>
-          <text x="550" y="69">Researcher, Skoltech CIG</text>
-          <text x="655" y="45">PhD in neurobiology, Skoltech</text>
+          <text x="100" y="122">BSc, Novosibirsk State Technical University</text>
+          <text x="460" y="100">MSc, Skoltech</text>
+          <text x="550" y="78">Researcher, Skoltech CIG</text>
+          <text x="655" y="56">PhD in neurobiology, Skoltech</text>
+          <text x="760" y="34">Research Scientist, AIRI</text>
         </g>
       </svg>
     </div>
@@ -320,15 +329,15 @@
         <div class="tags"><span>motor cortex</span><span>jPCA</span><span>EEG, ECoG</span></div>
       </div>
       <div>
-        <h3>Medical imaging</h3>
-        <p>Motion artefact removal and denoising in MRI with neural networks inside iterative algorithms.</p>
-        <div class="tags"><span>MRI</span><span>U-Net</span><span>signal processing</span></div>
+        <h3>Medical foundation models</h3>
+        <p>Large health models in the Biomarker Research group at AIRI. Earlier: epigenetic aging clocks and deep learning for MRI.</p>
+        <div class="tags"><span>large health models</span><span>aging clocks</span><span>MRI</span></div>
       </div>
     </div>
   </section>
 
   <section class="sec" id="projects">
-    <div class="sec-head"><h2>Projects</h2><span class="count">9</span></div>
+    <div class="sec-head"><h2>Projects</h2><span class="count">11</span></div>
     <div class="table projects">
       <div class="thead" aria-hidden="true"><span>Project</span><span>Type</span><span>What it does</span><span>Links</span></div>
       <div class="tr">
@@ -346,8 +355,20 @@
       <div class="tr">
         <h3>Rotational structure in neural data</h3>
         <span class="kind mono">Research</span>
-        <p class="desc">Model-free analysis of why neural population data rotate under jPCA. Introduces the gyration number and compares 59 recordings from five datasets. <b>FENS Forum 2024</b>.</p>
-        <span class="out"><a class="lnk" href="https://www.biorxiv.org/content/10.1101/2023.09.11.557230v2.abstract">bioRxiv</a><a class="lnk" href="https://ieeexplore.ieee.org/abstract/document/9923322">IEEE</a></span>
+        <p class="desc">Shows that rotational dynamics in motor cortex are explained by travelling waves of neuronal activity. Introduces the gyration number, a measure of rotation strength. <b>Scientific Reports 2024</b>, <b>FENS Forum 2024</b>.</p>
+        <span class="out"><a class="lnk" href="https://www.nature.com/articles/s41598-024-53907-2">Paper</a><a class="lnk" href="https://github.com/NevVerVer/neural-dynamics-gyration">Code</a></span>
+      </div>
+      <div class="tr">
+        <h3>ComputAgeBench</h3>
+        <span class="kind mono">Research</span>
+        <p class="desc">Benchmark for epigenetic aging clocks: 66 harmonized blood DNA methylation datasets covering 19 aging-accelerating conditions, used to test 13 published clocks. <b>KDD 2025</b>.</p>
+        <span class="out"><a class="lnk" href="https://dl.acm.org/doi/10.1145/3711896.3737382">Paper</a><a class="lnk" href="https://github.com/ComputationalAgingLab/ComputAge">Code</a></span>
+      </div>
+      <div class="tr">
+        <h3>Uncertainty of aging clocks</h3>
+        <span class="kind mono">Research</span>
+        <p class="desc">Shows that aging clocks are highly uncertain on reprogrammed cells, which challenges reported rejuvenation effects. <b>Aging Cell 2024</b>.</p>
+        <span class="out"><a class="lnk" href="https://onlinelibrary.wiley.com/doi/10.1111/acel.14283">Paper</a><a class="lnk" href="https://github.com/ComputationalAgingLab/reprogramming_ood">Code</a></span>
       </div>
       <div class="tr">
         <h3>Bird's-eye-view map segmentation</h3>
@@ -389,38 +410,54 @@
   </section>
 
   <section class="sec" id="publications">
-    <div class="sec-head"><h2>Publications</h2><span class="count">4</span></div>
+    <div class="sec-head"><h2>Publications</h2><span class="count">6</span><a class="lnk head-link" href="https://scholar.google.com/citations?user=pXx97XgAAAAJ&amp;hl=ru">Google Scholar</a></div>
     <div class="table pubs">
       <div class="tr">
         <span class="when mono">KDD 2025</span>
-        <div><h3>Neurophysiologically Realistic Environment for Comparing Adaptive Deep Brain Stimulation Algorithms in Parkinson's Disease</h3><p class="desc">Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining.</p></div>
+        <div><h3>Neurophysiologically Realistic Environment for Comparing Adaptive Deep Brain Stimulation Algorithms in Parkinson's Disease</h3><p class="authors"><b>E. Kuzmina</b>, D. Kriukov, M. Lebedev, D. V. Dylov</p><p class="desc">Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining</p></div>
         <span class="out"><a class="lnk" href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737397">ACM DL</a><a class="lnk" href="https://github.com/NevVerVer/DBS-Gym">Code</a></span>
       </div>
       <div class="tr">
-        <span class="when mono">MICCAI 2022</span>
-        <div><h3>Autofocusing+: Noise-Resilient Motion Correction in Magnetic Resonance Imaging</h3><p class="desc">Medical Image Computing and Computer Assisted Intervention, Singapore.</p></div>
-        <span class="out"><a class="lnk" href="https://arxiv.org/abs/2203.05569">arXiv 2203.05569</a><a class="lnk" href="https://github.com/cviaai/AF-PLUS">Code</a></span>
+        <span class="when mono">KDD 2025</span>
+        <div><h3>ComputAgeBench: Epigenetic Aging Clocks Benchmark</h3><p class="authors">D. Kriukov, E. Efimov, <b>E. Kuzmina</b>, A. Dudkovskaia, E. E. Khrameeva, D. V. Dylov</p><p class="desc">Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining</p></div>
+        <span class="out"><a class="lnk" href="https://dl.acm.org/doi/10.1145/3711896.3737382">ACM DL</a><a class="lnk" href="https://github.com/ComputationalAgingLab/ComputAge">Code</a></span>
       </div>
       <div class="tr">
-        <span class="when mono">bioRxiv 2023<br>IEEE DCNA 2022</span>
-        <div><h3>Unveiling Rotational Structure in Neural Data</h3><p class="desc">Preprint and conference paper on rotational dynamics in motor cortex population activity.</p></div>
-        <span class="out"><a class="lnk" href="https://www.biorxiv.org/content/10.1101/2023.09.11.557230v2.abstract">bioRxiv</a><a class="lnk" href="https://ieeexplore.ieee.org/abstract/document/9923322">IEEE Xplore</a></span>
+        <span class="when mono">Sci. Rep. 2024</span>
+        <div><h3>Neuronal Travelling Waves Explain Rotational Dynamics in Experimental Datasets and Modelling</h3><p class="authors"><b>E. Kuzmina*</b>, D. Kriukov*, M. Lebedev</p><p class="desc">Scientific Reports 14, 3566</p><a class="award" href="https://www.nature.com/collections/bebahbccfg">#1 in Scientific Reports Neuroscience Top 100 of 2024</a></div>
+        <span class="out"><a class="lnk" href="https://www.nature.com/articles/s41598-024-53907-2">Nature</a><a class="lnk" href="https://www.biorxiv.org/content/10.1101/2023.09.11.557230v2">bioRxiv</a><a class="lnk" href="https://github.com/NevVerVer/neural-dynamics-gyration">Code</a></span>
+      </div>
+      <div class="tr">
+        <span class="when mono">Aging Cell 2024</span>
+        <div><h3>Epistemic Uncertainty Challenges Aging Clock Reliability in Predicting Rejuvenation Effects</h3><p class="authors">D. Kriukov, <b>E. Kuzmina</b>, E. Efimov, D. V. Dylov, E. E. Khrameeva</p><p class="desc">Aging Cell 23 (11), e14283</p></div>
+        <span class="out"><a class="lnk" href="https://onlinelibrary.wiley.com/doi/10.1111/acel.14283">Wiley</a><a class="lnk" href="https://github.com/ComputationalAgingLab/reprogramming_ood">Code</a></span>
+      </div>
+      <div class="tr">
+        <span class="when mono">MICCAI 2022</span>
+        <div><h3>Autofocusing+: Noise-Resilient Motion Correction in Magnetic Resonance Imaging</h3><p class="authors"><b>E. Kuzmina</b>, A. Razumov, O. Y. Rogov, E. Adalsteinsson, J. White, D. V. Dylov</p><p class="desc">Medical Image Computing and Computer Assisted Intervention, Singapore</p></div>
+        <span class="out"><a class="lnk" href="https://link.springer.com/chapter/10.1007/978-3-031-16446-0_35">Springer</a><a class="lnk" href="https://arxiv.org/abs/2203.05569">arXiv</a><a class="lnk" href="https://github.com/cviaai/AF-PLUS">Code</a></span>
       </div>
       <div class="tr">
         <span class="when mono">IEEE DCNA 2022</span>
-        <div><h3>EEG during Motor Imagery under Different Postural Conditions: Case Study</h3><p class="desc">6th Scientific School on Dynamics of Complex Networks and their Applications.</p></div>
+        <div><h3>EEG during Motor Imagery under Different Postural Conditions: Case Study</h3><p class="authors">A. Bugakova, V. Nikolaeva, A. Gorin, A. Muraveva, <b>E. Kuzmina</b>, M. Lebedev</p><p class="desc">6th Scientific School on Dynamics of Complex Networks and their Applications</p></div>
         <span class="out"><a class="lnk" href="https://ieeexplore.ieee.org/abstract/document/9923254">IEEE Xplore</a></span>
       </div>
     </div>
+    <p class="note">* Equal contribution.</p>
   </section>
 
   <section class="sec" id="talks">
-    <div class="sec-head"><h2>Talks and posters</h2><span class="count">5</span></div>
+    <div class="sec-head"><h2>Conferences</h2><span class="count">6</span></div>
     <div class="table talks">
       <div class="tr">
         <span class="when mono">6–10 Jul 2026</span>
         <div><h3>FENS Forum 2026</h3><p class="desc">Barcelona, Spain</p></div>
         <p class="desc">Adaptive deep brain stimulation for Parkinson's disease. Stimulation policies are trained with reinforcement learning in a simulated environment that reproduces beta bursts, electrode drift and partial observability, and are compared with standard high-frequency DBS.</p>
+      </div>
+      <div class="tr">
+        <span class="when mono">5–6 Mar 2025</span>
+        <div><h3><a href="https://www.gevme.com/global-conference-on-gerophysics-2025">Global Conference on Gerophysics</a></h3><p class="desc">Singapore</p></div>
+        <p class="desc">Conference on physics-based and quantitative approaches to aging and longevity, organised by the Healthy Longevity Translational Research Programme at NUS.</p>
       </div>
       <div class="tr">
         <span class="when mono">Sep 2024</span>
@@ -430,7 +467,7 @@
       <div class="tr">
         <span class="when mono">25–29 Jun 2024</span>
         <div><h3>FENS Forum 2024</h3><p class="desc">Vienna, Austria</p></div>
-        <p class="desc">Presented our paper on jPCA rotations in motor cortex activity. We showed that a travelling wave in neuronal firing is enough to produce rotations, and introduced the gyration number, a measure that compares rotational structure across datasets without dimensionality reduction. Tested on 59 recordings from five datasets.</p>
+        <p class="desc">ePoster on our Scientific Reports paper about jPCA rotations in motor cortex activity. We showed that a travelling wave in neuronal firing is enough to produce rotations, and introduced the gyration number, a measure that compares rotational structure across datasets without dimensionality reduction. Tested on 59 recordings from five datasets.</p>
       </div>
       <div class="tr">
         <span class="when mono">Sep 2022</span>
@@ -449,6 +486,7 @@
     <div>
       <div class="sec-head"><h2>Experience</h2></div>
       <ul class="items">
+        <li><span class="when">2024 – now</span><h3>Research Scientist, AIRI</h3><p>Biomarker Research group. Large health models.</p></li>
         <li><span class="when">2021 – 2022</span><h3>Researcher, Skoltech CIG</h3><p>MRI signal enhancement. Paper and poster at MICCAI 2022.</p></li>
         <li><span class="when">Jul – Aug 2022</span><h3>Teaching assistant, Neuromatch Academy</h3><p>Taught the deep learning course and supervised student projects.</p></li>
         <li><span class="when">May – Sep 2021</span><h3>Software developer intern, Yandex SDC</h3><p>Segmentation and detection for delivery robot maps.</p></li>
@@ -470,7 +508,6 @@
         <li><span class="when">Jul 2023</span><h3>AIRI Deep Learning Summer School, Kazan</h3><p>Project on reinforcement learning with intrinsic motivation and latent imagination.</p></li>
         <li><span class="when">Sep 2019</span><h3>MegaDataHack, Novosibirsk</h3><p>Front-end and algorithms.</p></li>
         <li><span class="when">Sep 2018</span><h3>MegaDataHack, Novosibirsk</h3><p>Model of a city's energy consumption over 24 hours.</p></li>
-        <li><span class="when">Ongoing</span><h3>Digital artist</h3><p><a class="lnk" href="https://www.artstation.com/nevermind01">Portfolio on ArtStation</a></p></li>
       </ul>
     </div>
   </section>
@@ -484,6 +521,7 @@
       <dt>Signals and images</dt><dd>Computer vision, DSP, medical image processing</dd>
       <dt>Life sciences</dt><dd>Neurobiology, neurophysiology, neural and omics data</dd>
       <dt>Design</dt><dd>Adobe Photoshop, Adobe Illustrator</dd>
+      <dt>Art</dt><dd>Digital artist, <a class="lnk" href="https://www.artstation.com/nevermind01">portfolio on ArtStation</a></dd>
     </dl>
   </section>
 </main>
@@ -492,7 +530,7 @@
   <div class="wrap">
     <div>
       <h2>Open to research collaboration</h2>
-      <p>Brain-computer interfaces, adaptive neurostimulation, neural data analysis and machine learning for neuroscience.</p>
+      <p>Brain-computer interfaces, adaptive neurostimulation, large health models and machine learning for neuroscience and medicine.</p>
       <a class="big" href="mailto:Ekaterina.Kuzmina@skoltech.ru">Ekaterina.Kuzmina@skoltech.ru</a>
     </div>
     <div class="others">
